@@ -40,7 +40,6 @@ const Name = () => {
                 <br />
                 <button type="submit">Submit</button>
             </form>
-            {error && <p style={{ color: 'red' }}>{error}</p>}
             {fullName && <p>Full Name: {fullName}</p>}
         </div>
     );
