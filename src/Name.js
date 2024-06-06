@@ -41,7 +41,7 @@ const Name = () => {
                 <button type="submit">Submit</button>
             </form>
             {error && <p style={{ color: 'red' }}>{error}</p>}
-            <p>Full Name: {fullName}</p>
+            <p>{fullName}</p>
         </div>
     );
 };
